@@ -1,0 +1,128 @@
+#Body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-bottom: 100px;
+    min-height: 100vh;
+}
+
+/* Clases de BG */
+
+.fondoBodyIndex{
+    background-image: url(../IMG/fondoInicio.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.fondoBodyCliente{
+    background-image: url(../IMG/fondoCliente.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fondoBodyNewClient{
+    background-image: url(../IMG/fondoClienteNuevo.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.fondoBodyInterno{
+    background-image: url(../IMG/fondoInterno.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.opaciti{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(47, 65, 67);
+    position: fixed;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+footer{z-index: 3; position: absolute; bottom:0; margin: 0px; }
+header { height: min-content; z-index: 3;}
+.listafooter{padding-right: 15px;}
+
+.BienvenidaCartas{
+    background-color: rgba(135, 134, 134, 0.871);
+    color: whitesmoke;
+    width: auto;
+    height: fit-content;
+    border-radius: 20px;
+    margin:2%;
+    z-index: 3;
+
+}
+.Bienvenida{
+    background-color: rgba(135, 134, 134, 0.871);
+    color: whitesmoke;
+    width: 50%;
+    height: auto;
+    border: solid 5px black;
+    border-radius: 20px;
+    margin:3% 25%;
+    z-index: 3;
+
+}
+.CuadroNewClient{
+    background-color: rgba(135, 134, 134, 0.871);
+    color: whitesmoke;
+    width: 50%;
+    height: auto;
+    border: solid 5px black;
+    border-radius: 20px;
+    margin:0% 25% 6%;
+    z-index: 3;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    z-index: 3;
+}
+a:hover{color: whitesmoke;}
+
+.barraCarrito{width:110%;}
+
+/* agregar hover para los botone */
+
+.input{
+    width:50% ;
+}
+
+.none{
+    display: none;
+}
+
+.form-text{
+    color: aliceblue;
+}
+.boton{
+    border: black solid 3px;
+    border-radius: 25px;
+    color: whitesmoke;
+    background-color: rgba(70, 67, 67, 0.871);
+    width: 100px;
+}
+.boton_venta{
+    border: black solid 3px;
+    border-radius: 25px;
+    color: whitesmoke;
+    background-color: rgba(70, 67, 67, 0.871);
+    width: auto;
+}
+
+.boton_venta:active{
+    transition: 250ms;
+    background-color: rgba(17, 16, 16, 0.945);
+    color: red;
+    transform: scale(1.1);
+}
+#BotonChango{ width: 100%;}
+

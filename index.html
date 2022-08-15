@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#LaTienda</title>
+    <link rel="shortcut icon" href="./Assets/IMG/LOGO.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/CSS/index.css">
+    <script src="https://kit.fontawesome.com/9233588aef.js" crossorigin="anonymous"></script>
+</head>
+<body class="fondoBodyIndex container-fluid row" id="Body">
+    <div class="opaciti"></div>
+    <header class="navbar bg-light" id="nav">
+        <div class=" justify-content-around container" >
+            <i class="fa-solid fa-couch"></i>
+            <a class="navbar-brand" href="#Bienvenida"> #LaTienda </a>
+            <i class="fa-solid fa-couch"></i>
+        </div>
+    </header>
+
+    <div class="Bienvenida row text-center justify-content-center align-items-center" id="CuadroCentral" >
+        <div id="contenidoBienvenida" class="pt-2 row justify-content-center">
+            <h3> Bienvenido a La Tienda Del Mueble</h3>
+            <p>Ingresa tus datos</p>
+            <input type="text" class="text-center" id="email" value="" placeholder="Nombre de Cuenta">
+            <input type="password" class="text-center" id="pass" value="" placeholder="Contraseña">
+            <button class="boton btn btn-secondary my-3 "  id="BotonCliente"> <a href="#PdP"> Ingresar </a></button>
+            <p>¿Todavia no tenes una? Podes crearte una haciendo click <a href="/newClient.html"> aqui </a></p> 
+        </div> 
+    </div>
+    
+    <div id="CartasProds"></div> 
+    
+    
+    <!-- Button trigger modal -->
+    <a href="#nav" class="barraCarrito"><button ID="BotonChango" type="button" class="btn btn-secondary none"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Ir al carrito
+    </button> </a>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="color:whitesmoke;">
+        <div class="modal-dialog">
+            <div class="modal-content light align-items-center text-center bg-secondary">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Carrito de compras</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="chango">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="boton btn-secondary" data-bs-dismiss="modal">Salir</button>
+                    <button id="pagarCarrito" type="button" class="boton btn-secondary">Pagar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="PdP container-fluid d-flex flex-wrap justify-content-between align-items-center py-3  border-top bg-light" id="PdP">
+        <p class="col-md-4 mb-0">Todos los derechos reservados || 2022© <br>Hecho por Gonzalo Martin para CoderHouse</p>
+        <div class=" col-md-4 d-flex align-items-center justify-content-around mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <i class ="fa-solid fa-couch"></i>
+            <a class="navbar-brand my-3" href="#"> La Tienda Del Mueble </a>
+            <i class="fa-solid fa-couch"></i>
+        </div>
+        <ul class="nav listafooter col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/><i class="fa-brands fa-facebook"></i></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/><i class="fa-brands fa-instagram"></i></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/><i class="fa-brands fa-youtube"></i></svg></a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="/JS/package/lodash.js"></script>
+    <script src="./JS/Index.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+[ 
+    {
+    "nombre":"Juego de living",
+    "parrafo":"La sala de estar que siempre soñaste",
+    "precio": 50000,
+    "descripcion":"El combo consta de un sillon esquinero de 2mt x 90cm x 160cm, mesa ratonera de 80cm x 60cm y 3 almohadones decorativos.",
+    "imgURL":"./Assets/IMG/Living.jpg",
+    "codigo": "Liv13",
+    "cantidad": 0
+},
+    {
+    "nombre":"Dormitorio",
+    "parrafo": "Descansa como se debe",
+    "precio": 75000,
+    "descripcion":"El juego de dormitorio trae un sommier de 1.40cm X 1.90cm (dos plazas) junto a su respaldo correspondiente y dos mesas de luz de melamina",
+    "imgURL":"./Assets/IMG/Colchon.jpg", 
+    "codigo": "Dorm7",
+    "cantidad":0
+},
+    {   
+    "nombre":"Comedor Escandinavo",
+    "parrafo": "El comedor que siempre quisiste por poco dinero!",
+    "precio": 60000,
+    "descripcion":"Este set de comedor trae una mesa de vidrio con patas en madera paraiso de 1.60cm X 80cm junto a seis sillas tapizadas con patas en paraiso",
+    "imgURL":"./Assets/IMG/Comedor.jpg", 
+    "codigo": "Com20",
+    "cantidad": 0
+}
+
+]
