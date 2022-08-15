@@ -187,8 +187,32 @@ function recuperarCarroSS() {
 }
 
 function pagoCarrito () {
-    let modalCarro = document.getElementById("staticBackdrop");
-    modalCarro.innerHTML = 
+    changuitoHTML.innerHTML = 
+    `<form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="input-form">
+        </div>
+        <div class="mb-3">
+            <label for="mail" class="form-label">Ingresa tu mail</label>
+            <input type="mail" class="form-control" id="input-form" aria-describedby="emailHelp"> 
+        </div>    
+        <div class="mb-3">
+            <label for="name" class="form-label">Telefono</label>
+            <input type="number" class="form-control" id="input-form">
+        </div>
+        <div class="mb-3">
+            <label for="name" class="form-label">Direccion</label>
+            <input type="text" class="form-control" id="input-form">
+        </div>
+        <div class="mb-3">
+            <label for="name" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="input-form">
+        </div>
+    </form>
+    `;
+    let botonPago= document.getElementById("pagarCarrito");
+    botonPago.type= "submit";
 }
 
 
